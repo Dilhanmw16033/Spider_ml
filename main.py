@@ -9,4 +9,4 @@ df = pd.read_excel(r"C:\Users\sachin.dilhan\Desktop\spider_ml\Url_dataset.xlsx")
 df.columns = ['URL']
 for i in df['URL']: 
   paths.append(i)
-print(df)
+print(df.head())
